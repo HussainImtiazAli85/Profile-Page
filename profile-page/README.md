@@ -46,8 +46,8 @@ A responsive employee profile management system for Dubai Design State, built wi
 
 1. **Clone the repository**
    ```bash
-   git clone [repository-url]
-   cd dubai-design-state-profile
+   git clone https://github.com/HussainImtiazAli85/Profile-Page.git
+   cd profile-page
    ```
 
 2. **Install dependencies**
