@@ -49,3 +49,8 @@ select,
 textarea {
   transition: all 0.2s ease-in-out;
 }
+
+.webkit-appear-none {
+  -webkit-appearance: none;
+  appearance: none;
+}

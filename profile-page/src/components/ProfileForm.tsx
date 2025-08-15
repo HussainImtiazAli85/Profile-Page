@@ -231,7 +231,7 @@ const ProfileForm: React.FC = () => {
                   name="country"
                   value={formData.country}
                   onChange={handleInputChange}
-                  className={`w-full px-4 py-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200 ${
+                  className={`webkit-appear-none w-full px-4 py-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200 ${
                     errors.country ? 'border-red-300 bg-red-50' : 'border-gray-300 focus:border-blue-500'
                   }`}
                 >
@@ -254,7 +254,7 @@ const ProfileForm: React.FC = () => {
                   name="language"
                   value={formData.language}
                   onChange={handleInputChange}
-                  className={`w-full px-4 py-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200 ${
+                  className={`webkit-appear-none w-full px-4 py-3 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200 ${
                     errors.language ? 'border-red-300 bg-red-50' : 'border-gray-300 focus:border-blue-500'
                   }`}
                 >
